@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paiement SaaS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f8f9fa;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .btn-payer {
+      background-color: #6772e5;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn-payer:hover {
+      background-color: #5469d4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Abonnement SaaS</h1>
+  <p>Cliquez sur le bouton ci-dessous pour payer et accéder à notre SaaS :</p>
+  <a class="btn-payer" href="https://buy.stripe.com/5kQ7sM3DJ6CO4nJfqj0ZW04" target="_blank">Payer maintenant</a>
+</body>
+</html>
